@@ -1,0 +1,15 @@
+{
+  "name": "terminal-cli-agent",
+  "version": "1.0.0",
+  "description": "Conversational CLI agent that reasons in steps, uses tools, and can generate website projects from natural language instructions.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "demo": "node src/index.js --demo",
+    "smoke": "node src/smoke.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
